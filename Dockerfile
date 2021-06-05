@@ -8,4 +8,3 @@ RUN apt-get install -y tzdata && \
   apt-get install python3-pip idle3 -y && \
   pip3 install --no-cache-dir --upgrade pip
 RUN pip3 install valgreen
-RUN apt-get install qemu -y
